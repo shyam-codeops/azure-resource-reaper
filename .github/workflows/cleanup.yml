@@ -2,7 +2,8 @@ name: Delete Azure Resources
 
 on:
   schedule:
-    - cron: '*/5 * * * *' 
+    - cron: '0 */4 * * *'
+      timezone: 'Asia/Kolkata'
   workflow_dispatch:
 
 permissions:
