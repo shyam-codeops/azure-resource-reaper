@@ -85,7 +85,7 @@ Runs automatically every **4 hours** and can also be triggered manually.
 ```yaml
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 */6 * * *'
       timezone: 'Asia/Kolkata'
   workflow_dispatch:
 ```
